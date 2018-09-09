@@ -1,0 +1,125 @@
+.parent{
+font-size: 16px;
+background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, red,cyan); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.myform{
+	margin: 5%;
+	margin-top: 1%;
+}
+
+.myTitle{
+	display: none;
+}
+
+.main-div{
+	min-height: 100%;
+	width: 100%;
+	color: lightcyan;
+}
+
+.intro-div{
+    min-height: 60%;
+    padding: 2.5%;
+    color: lightcyan;
+}
+
+.inputs{
+	width:100%;
+}
+
+.inputElements{
+	width: 60%;
+}
+
+#loadGIF{
+	height: 10%;
+	width: 5%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+
+hr{
+background-color: white;
+}
+
+#moviePoster{
+	width:90%;
+	height:100%;
+	margin-top:5%;
+	border: 1px solid green;
+}
+
+.content{
+	width:100%;
+	word-wrap: break-word;
+	font-size: 1rem;
+	width: 100%;
+}
+
+.heading{
+	width:100%;
+	word-wrap: break-word;
+	font-size: 1rem;
+	width: 100%;
+}
+
+.movie-name{
+	font-size: 2rem;
+	height: 50%;
+	text-align: left;
+	margin-top: 8%;
+	word-wrap: break-word;
+}
+
+.release-date{
+	font-size: 1.2rem;
+	height: 15%;
+	text-align: left;
+}
+
+
+/*Media Queries*/
+@media (max-width: 767px) {
+
+	.content{
+		font-size: 0.8rem;
+	}
+
+	.heading{
+		font-size: 0.8rem;
+		word-wrap: unset;
+	}
+
+	.movie-name{
+		font-size: 0.9rem;
+		margin-top: 10%;
+		height: 30%;
+	}
+
+	.release-date{
+		font-size: 0.6rem;
+	}
+
+	.mobile{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	#moviePoster{
+		width:100px;
+		height:100px;
+		margin-top: 8%;
+	}
+
+	#loadGIF{
+	height: 10%;
+	width: 10%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+}
